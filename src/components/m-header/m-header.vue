@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: '',
+  name: 'MHeader',
   data () {
     return {
       
@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-@import "~common/stylus/variable"
+// @import "~common/stylus/variable"
 .m-header{
     .header{
         height .5rem;
@@ -32,7 +32,7 @@ export default {
         }
         span{
             display:inline-block;
-            color:$color-theme;
+            color:pink;
         }
     }
 }
